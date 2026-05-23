@@ -114,7 +114,7 @@ class Test{
                 .mapToInt(Integer::intValue).sum();
         boolean match = l.stream().anyMatch(n -> n == 0);
         System.out.println(match);
-
+        System.out.println(sum);
 
 
     }
